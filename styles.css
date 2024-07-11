@@ -1,0 +1,52 @@
+#title,#description{
+    text-align:center;
+  }
+  fieldset{
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom:0;
+    margin-right:10px;
+    max-width:350px;
+    text-align:left;
+    border-radius:10px;
+  }
+  #detail{
+    font-size:25px;
+    padding-top:10px;
+    padding-bottom:none;
+    font-family:Tahoma;
+  }
+  #survey-form{
+    background-color:black;
+    color:white;
+    margin-left:100px;
+    margin-right:100px;
+    max-width:400px;
+    border-radius:20px;
+  }
+  body{
+    background:linear-gradient(pink,blue);
+    
+  }
+  #submit{
+    margin-top:10px;
+    margin-bottom:20px;
+  }
+  .footer{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    text-align: center;
+
+  }
+  a{
+    color:lightpink;
+
+  }
+  .footer:hover{
+    color: aquamarine;
+
+  }
+  
+  
+  

@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet"href="styles.css"></link>
+</head>
+<body>
+    <h1 id="title">Course Survey Form</h1>
+    <p id="description">A survey to gather insights into coders' experiences, preferences, and skills to enhance resources, tools, and educational programs.</p>
+     <center>
+    <form id="survey-form">
+         <p id="detail"> Details </p>
+      <fieldset>
+        <label for="name"id="name-label">Name:
+        <input id="name" type="text"name="name"placeholder="Enter your Name" required></input>
+      </label>
+      </fieldset>
+       <fieldset>
+        <label for="email"id="email-label">Email:
+        <input id="email" type="email"name="email"placeholder="Enter your Email" required></input>
+      </label>
+      </fieldset>
+      <fieldset> 
+        <legend>Optional</legend>
+        <label for="number"id="number-label">Mobile Number: <input id="number" type="number"min="0"max="9"placeholder="Enter Number"></input>
+      </fieldset>
+      <fieldset>
+           <label for="subject">What is your Favorite course</label>
+           <select name="dropdown" id="dropdown">
+           <option id="one" value="hello">Select one option</option>
+           <option id="two" value="python">Python</option>
+           <option id="three" value="java">Java</option>
+           <option id="four" value="html">Html</option>
+           <option id="five" value="css">Css</option>
+            </select>
+      </fieldset>
+       <fieldset>
+        <label for="course">How likely you recommend freecodecamp to your friends<br>
+          <input checked type="radio"id="course"name="course"value="yes"required>Yes.For sure</input>
+          <input type="radio"id="course"name="course"value="no">Not Sure</input>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="suggest">Suggest us the things need to be improved</label><br>
+        <input checked type="checkbox"id="suggest"name="front"value="front-end">Front-End</input>
+         <input type="checkbox"id="suggest"name="dura"value="duration">Duration</input>
+          <input type="checkbox"id="suggest"name="wiki"value="wiki">Wikipedia</input>
+           <input type="checkbox"id="suggest"name="back"value="back-end">Back-End</input>
+      </fieldset>
+      <fieldset>
+         <label for="bio">What do you think about Courses offered by freeCodeCamp <label><br>
+           <textarea id="bio"row="10px"cols="30px"></textarea>
+      </fieldset>
+      <br>
+      <div class="submit">
+        <input type="submit"id="submit"></input>  
+   
+      </div>
+    </form>
+      </center>  
+      <div class="footer">
+        <p>For more details visit <a href="https://www.freecodecamp.org/"target="_blank">freecodecamp.org</a> website</p> 
+      </div>
+      
+      
+</body>
+</html>
